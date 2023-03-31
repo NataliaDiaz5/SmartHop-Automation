@@ -21,6 +21,5 @@ describe('Register in Smarthop Demo', () => {
     // cy.wait(3000);
     // cy.get('button[type=submit]').click();
 
-
     })
 })
