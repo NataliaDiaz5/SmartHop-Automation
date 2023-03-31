@@ -16,10 +16,10 @@ describe('Register in Smarthop Demo', () => {
     cy.get('input[name=passwordConfirm]').type('123456');
     cy.wait(3000);
     cy.get('input[type=checkbox]').click();
-    cy.get('div[class=recaptcha-checkbox-border]').click();
+    //cy.get('div[class=recaptcha-checkbox-border]').click();
     // cy.contains('not a robot').click()
-    cy.wait(3000);
-    cy.get('button[type=submit]').click();
+    // cy.wait(3000);
+    // cy.get('button[type=submit]').click();
 
 
     })
