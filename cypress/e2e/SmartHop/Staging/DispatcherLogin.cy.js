@@ -3,7 +3,7 @@ describe('launch a search', () => {
       
       cy.visit('https://staging.app.smarthop.co/login');
       cy.viewport(1500,700);
-      cy.get('input[type=email]').type('ndiaz+driver611@smarthop.co');
+      cy.get('input[type=email]').type('ndiaz+dispatcher429@smarthop.co');
       cy.get('input[type=password]').type('123456');
       cy.get('button[type=submit]').click();
       //cy.contains('100001').click();
